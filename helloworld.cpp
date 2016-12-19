@@ -10,10 +10,11 @@ void say(string something) {
 
 int main()
 {
-  Pet *bebe = new Pet(4, "Bebe");
+  Pet *bebe = new Pet(8, "Bebe");
   bebe->toString();
 
   bebe->setName("Babebe!");
+  bebe->setLimbs(6);
   bebe->toString();
 
   delete bebe;

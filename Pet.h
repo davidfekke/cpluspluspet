@@ -11,10 +11,9 @@ class Pet {
         string getName();
         void setName(string nm);
         void setLimbs(int lmbs);
+        void toString();
 
         Pet(int, string);
         Pet();
         ~Pet(); 
-
-        void toString();
 };
