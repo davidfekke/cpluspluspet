@@ -16,14 +16,17 @@ int main()
   bebe->setName("Babebe!");
   bebe->setLimbs(6);
   bebe->toString();
-
+  
+  //delete bebe;
   delete bebe;
 
   Pet charlie(4, "Charlie the dog");
   
   cout << charlie.getName() << " is my other pet." << endl;
+  Pet *chuck = &charlie;
+  
+  chuck->toString();
 
-  //delete bebe;
   say("Did this work?");
   return 0;
 }
