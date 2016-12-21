@@ -10,4 +10,4 @@ helloworld.o: helloworld.cpp
 	g++ -std=c++11 -c helloworld.cpp
 
 clean:
-	rm *.o hello
+	./deletelinkfiles.sh
