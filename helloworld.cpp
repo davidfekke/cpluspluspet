@@ -24,7 +24,8 @@ int main()
   
   cout << charlie.getName() << " is my other pet." << endl;
   Pet *chuck = &charlie;
-  
+  chuck->setLimbs(Pet::doubleLimbs(chuck->getLimbs()));
+
   chuck->toString();
 
   say("Did this work?");
