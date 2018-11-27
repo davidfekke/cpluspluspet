@@ -1,0 +1,3 @@
+/Users/davidfekke/Documents/cplusplus/projects/helloworld/CMakeFiles/rebuild_cache.dir
+/Users/davidfekke/Documents/cplusplus/projects/helloworld/CMakeFiles/edit_cache.dir
+/Users/davidfekke/Documents/cplusplus/projects/helloworld/CMakeFiles/hello.a.dir
