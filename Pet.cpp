@@ -20,6 +20,11 @@ void Pet::toString() {
     cout << "This pet " << this->name << " has " << this->limbs << " Limbs." << endl; 
 }
 
+int Pet::doubleLimbs(int limbs)
+{
+    return limbs * 2;
+}
+
 Pet::~Pet() {
     cout << "This Pet " << this->name << " was destroyed" << endl;
 }

@@ -12,6 +12,7 @@ class Pet {
         void setName(string nm);
         void setLimbs(int lmbs);
         void toString();
+        static int doubleLimbs(int limbs);
 
         Pet(int, string);
         Pet();
