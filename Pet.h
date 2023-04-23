@@ -13,6 +13,7 @@ class Pet {
         void setLimbs(int lmbs);
         void toString();
         static int doubleLimbs(int limbs);
+        static void petsay(string something);
 
         Pet(int, string);
         Pet();
