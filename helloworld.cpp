@@ -10,15 +10,15 @@ void say(string something) {
 
 int main()
 {
-  Pet *bebe = new Pet(8, "Bebe");
-  bebe->toString();
+  Pet *miles = new Pet(8, "Miles");
+  miles->toString();
 
-  bebe->setName("Babebe!");
-  bebe->setLimbs(6);
-  bebe->toString();
+  miles->setName("Babebe!");
+  miles->setLimbs(6);
+  miles->toString();
   
   //delete bebe;
-  delete bebe;
+  delete miles;
 
   Pet charlie(4, "Charlie the dog");
   
