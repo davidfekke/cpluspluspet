@@ -17,7 +17,6 @@ int main()
   miles->setLimbs(4);
   miles->toString();
   
-  //delete bebe;
   delete miles;
 
   Pet charlie(4, "Charlie the dog");
